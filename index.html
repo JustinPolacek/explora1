@@ -10,9 +10,57 @@
     />
     <link rel="stylesheet" href="./negative.css">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
-    <title>Slide Animation</title>
+    <title>EXPLORA</title>
   </head>
   <body> 
+
+
+    <header>
+      <div class="container">
+          <nav class="nav">
+              <a href="index.html" class="logo">EXPLORA</a>
+              <ul class="nav-list">
+                  <li>
+                      <a href="index.html" class="nav-link">Home</a>
+                  </li>
+                  
+                  <li>
+                      <a href="negative.html" class="nav-link">Visuals</a>
+                  </li>
+                
+                  <li>
+                      <a href="#" class="nav-link">Contact</a>
+                  </li>
+              </ul>
+              <a href="#" id="nav-cta">Learn More</a>
+          </nav>
+      </div>
+  </header>
+
+  
+
+  <script>
+      window.addEventListener('scroll', function () {
+          let header = document.querySelector('header');
+          let windowPosition = window.scrollY > 0;
+          header.classList.toggle('scrolling-active', windowPosition);
+      })
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <main>
       <section class="landing">
         <section class="showcase">
@@ -20,7 +68,7 @@
             <video src="/vid/Pexels Videos 1851190 (1).mp4" autoplay muted loop></video>
           </div>
           <div class="content">
-            <h1>Discovering your inner self</h1>
+            <h1>Discovering the inner story</h1>
             <div>
             <a href="#shop" class="btn">Watch now</a>
             </div>
@@ -31,6 +79,13 @@
     </main>
 
     <section class="hero" id="shop">
+      <div class="title">
+        <h1>Our Visualizers</h1>
+        
+      </div>
+      <div class="para">
+        <p>"Feed your mind with inner truth"</p>
+      </div>
 
       <div class="box">
         <div class="box-1">

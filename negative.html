@@ -9,12 +9,65 @@
     <title>Document</title>
 </head>
 <body>
+    
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">EXPLORA</a>
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="nav-link">Visuals</a>
+                    </li>
+                  
+                    <li>
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <a href="#" id="nav-cta">Learn More</a>
+            </nav>
+        </div>
+    </header>
+  
+    
+  
+    <script>
+        window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+    </script>
 
     <section class="hero">
+        <div class="title">
+            <h1>negative thoughts</h1>
+            
+          </div>
+          <div class="para">
+            <p> "A visualizing experience to help</br> with negative thinking"
+            </p>
+          </div>
         <div class="video">
         <iframe width="1000" height="700" src="https://www.youtube.com/embed/BBeF8sg7U8o" frameborder="0" allow="accelerometer; autoplay;
          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div class="title-1">
+        <h1>"To enlighten ones mind"</h1>
+        
+      </div>
+      <div class="para-1">
+        <p>  In this inner working we talk about something that is <br>
+            very familiar, negative thinking. What is it? and how do we
+            </br>
+            derive a solution to understand more about it?
+           </br>
+        </p>
+      </div>
+      <p class="credit">-Daniel Durkovic</p>
     </section>
     
 </body>
